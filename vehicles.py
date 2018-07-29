@@ -44,7 +44,9 @@ class Bike(Vehicle):
 	is_geared = True
 
 	def do_wheelie(self):
-		print("Wheeeeeiieeee")
+		result = "Wheeeeeiieeee"
+		print(result)
+		return result
 
 	
 
